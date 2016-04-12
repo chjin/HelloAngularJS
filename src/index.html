@@ -7,8 +7,9 @@
 </head>
 <body data-ng-app="myApp">
     <div data-ng-controller="helloWorldCtrl">
-        <h1>안녕하세요. 랭귤러 {{name}}! </h1>
-        <input data-ng-model="name">
+        <h1>안녕하세요. 랭귤러 {{name.first}} {{name.last}}! </h1>
+        <input data-ng-model="name.first">
+        <input data-ng-model="name.last">
     </div>
 
     <script src="js/vendor/angular.js"></script>

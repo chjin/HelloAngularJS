@@ -9,5 +9,5 @@
  * */
 angular.module('myApp.controllers',[])
     .controller('helloWorldCtrl', function ($scope) {
-        $scope.name="세상에 온걸 환영합니다!";
+        $scope.name={first: "hojin", last: "chu"};
     });
